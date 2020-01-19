@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GuiatelActivity!</string>
+    <string name="app_name">Guia Telefonica Republica Argentina</string>
+
+    <string name="menu_Favorites">Favoritos</string>
+    <string name="menu_Recents">Recientes</string>
+    <string name="menu_About">Creditos</string>
+        
+        
+</resources>

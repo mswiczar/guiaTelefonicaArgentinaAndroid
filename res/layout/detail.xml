@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="#000000"
+     android:orientation="vertical"
+     android:paddingTop="5dp" >
+
+        <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="horizontal"
+            android:id="@+id/mainLayout"
+    
+    >
+    
+    </LinearLayout> 
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="30dp"
+         android:background="#000000"
+         android:paddingLeft="10dp"
+         
+         android:orientation="horizontal" >
+
+
+         <TextView
+         	android:paddingLeft="0dp"
+             
+             android:id="@+id/textViewName"
+             android:layout_width="wrap_content"
+             android:layout_height="30dip"
+             android:lines="1"
+             
+             android:paddingTop="5dp"
+             android:text="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="50dp"
+	     android:paddingLeft="10dp"
+         
+         android:background="#000000"
+         android:orientation="horizontal" >
+
+
+         <TextView
+             android:id="@+id/textViewStreet"
+             android:layout_width="wrap_content"
+             android:layout_height="50dp"
+             android:layout_weight="0.42"
+             android:lines="2"
+             
+             android:paddingTop="2dp"
+             android:text="xxxxxxxxxxxxxxxxxxxxx"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+     </LinearLayout>         
+         
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="40dp"
+         android:background="#000000"
+	     android:paddingLeft="10dp"
+         
+         android:orientation="horizontal" >
+
+
+         <TextView
+             android:id="@+id/textCallTo"
+             android:layout_width="wrap_content"
+             android:layout_height="40dp"
+             android:layout_weight="0.42"
+             android:paddingTop="2dp"
+             android:text="Llamar a: ....................."
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+     </LinearLayout>
+
+         
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="40dp"
+	     android:paddingLeft="10dp"
+         
+         android:background="#000000"
+         android:orientation="horizontal" >
+
+
+         <TextView
+             android:id="@+id/textViewMap"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_weight="0.42"
+             android:paddingTop="2dp"
+             android:text="Abrir en Google Maps"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+     </LinearLayout>
+
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="35dp"
+         android:background="#000000"
+	     android:paddingLeft="10dp"
+         
+         android:orientation="horizontal" >
+         <TextView
+             android:id="@+id/textViewFavorites"
+             android:layout_width="wrap_content"
+	         android:background="#cacaca"
+             
+             android:layout_height="30dp"
+             android:layout_weight="0.42"
+             android:paddingTop="2dp"
+             android:text="(+) Favoritos   "
+             android:gravity="center_horizontal"
+             
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         <TextView
+             
+             android:id="@+id/textViewAddressBook1"
+             android:layout_width="10dip"
+             android:layout_height="30dp"
+             android:layout_weight="0.42"
+             android:paddingTop="2dp"
+             android:text=""
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         
+         <TextView
+	         android:background="#cacaca"
+             
+             android:id="@+id/textViewAddressBook"
+             android:layout_width="wrap_content"
+             android:layout_height="30dp"
+             android:layout_weight="0.52"
+             android:paddingTop="2dp"
+             android:gravity="center_horizontal"
+             
+             android:text=" (+) Contactos  "
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+         <TextView
+             
+             android:id="@+id/textViewAddressBook2"
+             android:layout_width="10dip"
+             android:layout_height="30dp"
+             android:layout_weight="0.42"
+             android:paddingTop="2dp"
+             android:text=""
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+         
+         
+     </LinearLayout>
+
+   
+
+
+         
+     <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:background="#000000"
+         android:orientation="horizontal" >
+     </LinearLayout>
+     
+	<com.google.android.maps.MapView
+    	android:id="@+id/mapview"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:enabled="true"
+    	android:clickable="true"
+    	android:apiKey="0jbf9YrCDvqrsBHXJsXQOxdgjTnlTR-u0kd6rKg"
+    	     	
+    	 
+    />
+         
+         
+
+ </LinearLayout> 
+ 

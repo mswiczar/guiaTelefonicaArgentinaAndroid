@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:background="#FFFFFF"
+    android:padding="6dip" >
+
+    <TextView
+        android:id="@+id/labelmodelo"
+        android:layout_width="fill_parent"
+        android:layout_height="37dp"
+        android:gravity="center_horizontal"
+            android:text="Obtener mas resultados..."
+         />
+
+</LinearLayout>
